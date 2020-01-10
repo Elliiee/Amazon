@@ -9,7 +9,7 @@ public class NumberOfIslandDFS {
         int numRow = grid.length;
         int numColumn = grid[0].length;
 
-        if (r < 0 || c < 0 || r > numRow || c > numColumn || grid[r][c] == '0'){
+        if (r < 0 || c < 0 || r >= numRow || c >= numColumn || grid[r][c] == '0'){
             return ;
         }
 
