@@ -33,7 +33,7 @@ public class ValidateBinarySearchTree {
         return true;
     }
 
-    // Approach 2: Iteration
+    // Approach 1: Recursion
     public boolean isValidBSTRecursion(TreeNode node){
         return helper(node, null, null);
     }
