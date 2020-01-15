@@ -25,7 +25,7 @@ public class ValidateBinarySearchTreeIteration {
             lower = lowers.poll();
             upper = uppers.poll();
 
-            if (root == null)   continue;  // note here is using continue
+            if (root == null)   continue;  // note here is using continue because it's in a loop
 
             val = root.val;
             if (lower != null && val <= lower)  return false;
