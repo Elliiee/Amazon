@@ -7,7 +7,7 @@ Inorder Traversal
 public class ValidateBinarySearchTreeInorderTraversal {
     public boolean isValidBST(TreeNode root){
         Stack<TreeNode> stack = new Stack<>();
-        double inorder = -Double.MAX_VALUE;
+        double inorder = -Double.MAX_VALUE; // NOTE: this is negative
 
         while (!stack.isEmpty() || root != null){
             while (root != null){
