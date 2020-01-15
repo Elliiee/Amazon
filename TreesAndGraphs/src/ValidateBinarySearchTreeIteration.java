@@ -37,4 +37,6 @@ public class ValidateBinarySearchTreeIteration {
         return true;
     }
 
+    // Time complexity : O(N) since we visit each node exactly once.
+    // Space complexity : O(N) since we keep up to the entire tree.
 }
