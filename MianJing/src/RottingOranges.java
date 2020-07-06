@@ -25,7 +25,7 @@ public class RottingOranges {
         int C = grid[0].length;
 
         // create a queue for all starting cells with rotten oranges
-        Queue<Integer> queue = new ArrayDeque<>();
+        Queue<Integer> queue = new LinkedList<>();
 
         // create a hash map to remember the depth
         Map<Integer, Integer> depth = new HashMap<>();
