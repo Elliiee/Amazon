@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Amazon.iml" filepath="$PROJECT_DIR$/Amazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayString/ArrayString.iml" filepath="$PROJECT_DIR$/ArrayString/ArrayString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayStringII/ArrayStringII.iml" filepath="$PROJECT_DIR$/ArrayStringII/ArrayStringII.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedLists/LinkedLists.iml" filepath="$PROJECT_DIR$/LinkedLists/LinkedLists.iml" />
       <module fileurl="file://$PROJECT_DIR$/Trie/Trie.iml" filepath="$PROJECT_DIR$/Trie/Trie.iml" />
     </modules>
