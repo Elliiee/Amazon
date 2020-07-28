@@ -8,7 +8,7 @@ public class ts1167MinCostToConnectSticks {
             pq.add(s);
         }
         int total = 0;
-        while (pq.size() > 0){
+        while (pq.size() > 1){ // note: has to be larger than 1 not 0
             int temp = pq.poll() + pq.poll();
             pq.add(temp);
             total += temp;
